@@ -1,0 +1,76 @@
+/* src/components/header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #000; /* Black background color */
+  color: #fff; /* White text color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.logo h1 {
+  color: #fff; /* White color for the portfolio title */
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff; /* White color for navigation links */
+  font-weight: bold;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.hamburger {
+  display: none; /* Hide hamburger menu by default */
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: #fff; /* White color for hamburger lines */
+  margin: 3px 0;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .nav {
+    display: none; /* Hide navigation links by default */
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #000; /* Black background for mobile menu */
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .nav.open {
+    display: flex; /* Show navigation links when menu is open */
+  }
+
+  .nav a {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #333; /* Dark border between menu items */
+  }
+
+  .hamburger {
+    display: flex; /* Show hamburger menu on mobile */
+  }
+}

@@ -1,0 +1,58 @@
+/* src/components/about.css */
+.about-section {
+  background-color: #0d1326; /* Dark background */
+  color: #fff; /* White text */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #00aaff; /* Light blue for the title */
+  margin-bottom: 30px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #16203b; /* Darker background for the content area */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.about-text {
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #00aaff; /* Light blue border around the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Add some media queries for responsiveness */
+@media (min-width: 768px) {
+  .about-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .about-text {
+    flex: 1;
+    margin-right: 30px;
+  }
+
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+  }
+}

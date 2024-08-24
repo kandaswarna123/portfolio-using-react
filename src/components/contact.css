@@ -1,0 +1,55 @@
+/* Ensure the contact section takes up full width */
+.contact-section {
+  background-color: #0d1117; /* Dark background */
+  color: #c9d1d9; /* Light text color */
+  padding: 20px;
+  margin: 0 auto; /* Center the section horizontally */
+  border-radius: 8px;
+  max-width: 100%; /* Allow section to take full width */
+  text-align: center;
+}
+
+/* Set the background of the body to match the theme */
+body {
+  background-color: #0d1117; /* Match the theme of the section */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+}
+
+/* Additional styling */
+.contact-details p,
+.social-media a {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.contact-details a,
+.social-media a {
+  color: #58a6ff; /* Light blue link color */
+  text-decoration: none;
+}
+
+.contact-details a:hover,
+.social-media a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  margin-top: 20px;
+}
+
+h2, h3 {
+  color: #58a6ff; /* Light blue for headings */
+  margin-bottom: 15px; /* Add spacing below the headings */
+}
+
+.social-media a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-section .contact-details,
+.contact-section .social-media {
+  max-width: 800px;
+  margin: 0 auto;
+}

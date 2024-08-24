@@ -1,0 +1,83 @@
+/* src/components/project.css */
+#projects {
+  background-color: #0d1326; /* Dark background */
+  color: #fff; /* White text */
+  padding: 50px 0;
+  text-align: center;
+}
+
+#projects h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #00aaff; /* Light blue for the title */
+  margin-bottom: 30px;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px; /* Increased max-width to fit 3 cards */
+  margin: 0 auto;
+}
+
+.project-item {
+  list-style: none;
+  margin: 20px;
+  text-align: left;
+  background-color: #16203b; /* Darker background for project items */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex: 1 1 calc(33.333% - 40px); /* 3 cards in one line */
+  box-sizing: border-box;
+}
+
+.project-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.project-details h3 {
+  font-size: 24px;
+  color: #00aaff; /* Light blue text */
+  margin: 0;
+}
+
+.project-details p {
+  font-size: 16px;
+  color: #d4d4d4; /* Lighter gray for project description */
+  margin: 10px 0;
+}
+
+.linkedin-link {
+  color: #00aaff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.linkedin-link:hover {
+  color: #008ecc; /* Slightly darker blue on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 992px) {
+  .project-item {
+    flex: 1 1 calc(50% - 40px); /* 2 cards per row on medium screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .project-item {
+    flex: 1 1 100%; /* 1 card per row on small screens */
+  }
+}

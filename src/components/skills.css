@@ -1,0 +1,51 @@
+/* src/components/skills.css */
+.skills-section {
+  background-color: #0d1326; /* Dark background */
+  color: #fff; /* White text */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.skills-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #00aaff; /* Light blue for the title */
+  margin-bottom: 30px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.skills-list li {
+  list-style: none;
+  margin: 20px;
+  text-align: center;
+  background-color: #16203b; /* Darker background for skill items */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(239, 235, 235, 0.3);
+  width: 150px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills-list li:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(243, 240, 240, 0.5);
+}
+
+.skill-logo {
+  width: 70px;
+  height: 60px;
+  margin-bottom: 1px;
+}
+
+.skills-list p {
+  font-size: 18px;
+  color: #00aaff; /* Light blue text */
+  margin: 0;
+}
