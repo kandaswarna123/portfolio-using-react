@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio-using-react/static/css/main.21a8f86c.css",
+    "main.js": "/portfolio-using-react/static/js/main.28b37cab.js",
+    "static/js/453.ad6eb26e.chunk.js": "/portfolio-using-react/static/js/453.ad6eb26e.chunk.js",
+    "static/media/cer3.jpg": "/portfolio-using-react/static/media/cer3.11c2629e05718cd96479.jpg",
+    "static/media/fed.png": "/portfolio-using-react/static/media/fed.c8fca7b0dbdeb23b9a3a.png",
+    "static/media/pythonfud.png": "/portfolio-using-react/static/media/pythonfud.52affec26210f0493fde.png",
+    "static/media/htatri.png": "/portfolio-using-react/static/media/htatri.91b44804157dfe8722d0.png",
+    "static/media/ibmai.png": "/portfolio-using-react/static/media/ibmai.df41fa9958725feab5a0.png",
+    "static/media/Portfolio.png": "/portfolio-using-react/static/media/Portfolio.ae972a39576d5bfa4ea9.png",
+    "static/media/ibm1.png": "/portfolio-using-react/static/media/ibm1.de2c78febdf63a126caa.png",
+    "static/media/cer1.jpg": "/portfolio-using-react/static/media/cer1.35e9d250569117f3c264.jpg",
+    "static/media/cer2.jpg": "/portfolio-using-react/static/media/cer2.426c6319ee140b831079.jpg",
+    "static/media/background.jpg": "/portfolio-using-react/static/media/background.7c2ad95f8924ce9bbb44.jpg",
+    "static/media/edyst.jpg": "/portfolio-using-react/static/media/edyst.bc7aa187f2d3c90c59bb.jpg",
+    "static/media/pic.jpg": "/portfolio-using-react/static/media/pic.2062c84592acb9422ca4.jpg",
+    "static/media/feedback.jpg": "/portfolio-using-react/static/media/feedback.5c502afffbc63d4c8a5e.jpg",
+    "static/media/iris.jpeg": "/portfolio-using-react/static/media/iris.047b6471441e5d41505c.jpeg",
+    "index.html": "/portfolio-using-react/index.html",
+    "main.21a8f86c.css.map": "/portfolio-using-react/static/css/main.21a8f86c.css.map",
+    "main.28b37cab.js.map": "/portfolio-using-react/static/js/main.28b37cab.js.map",
+    "453.ad6eb26e.chunk.js.map": "/portfolio-using-react/static/js/453.ad6eb26e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21a8f86c.css",
+    "static/js/main.28b37cab.js"
+  ]
+}
