@@ -1,3 +1,4 @@
+
 // src/components/Projects.js
 import React from 'react';
 import './project.css'; // Ensure this file exists and is properly linked
@@ -27,7 +28,7 @@ function Projects() {
           <div className="project-details">
             <h3>Project 2</h3>
             <p> NOTE TAKING APP.</p>
-            <a href="hhttps://www.linkedin.com/in/kandha-swarna-a9459a288" className="linkedin-link" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/kandha-swarna-a9459a288" className="linkedin-link" target="_blank" rel="noopener noreferrer">
               View on LinkedIn
             </a>
           </div>

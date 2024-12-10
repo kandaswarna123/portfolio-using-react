@@ -1,3 +1,4 @@
+
 // src/components/About.js
 import React from 'react';
 import './about.css'; // Ensure this file contains the necessary styles
@@ -23,3 +24,4 @@ const About = () => {
 };
 
 export default About;
+

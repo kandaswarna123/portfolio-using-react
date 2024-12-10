@@ -3,7 +3,7 @@ import React from 'react';
 import Header from './components/header';
 import Projects from './components/project';
 import Certificates from './components/certificates'; // Import the Certificates component
-// import './App.css'; 
+import './App.css'; 
 import About from './components/about'
 import Contact from './components/contact'
 import Skills from './components/skills'
